@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Tradiciones y Curiosidades | Es México</title>
+        <!--CDN-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!--FAVICON-->
+        <link rel="icon" type="image/png" href="multimidia/chapeu-mexicano.png">
+
+        <!--CSS (cor de fundo e importação de fontes)-->
+        <style type="text/css">
+            body {
+                background-color: #d5ffe5;
+            }
+            @font-face {
+                font-family: mexicana;
+                src: url(fontes/Open-Dyslexic/OpenDyslexic-Regular.otf);
+            }
+            @font-face {
+                font-family: "comum bold";
+                src: url(fontes/Champagne-Limousines/Champagne\ &\ Limousines\ Bold.ttf);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <!--HEADER-->
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-light" style="background-color: #5bff9b;">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="multimidia/chapeu-mexicano.png" alt="" width="40" height="30" class="d-inline-block align-text-top">
+                                <strong style="font-family:mexicana;">Es México</strong>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div> 
+
+            <!--NAVBAR-->
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+        
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html" style="font-family:comum bold;">HOME</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family:comum bold;">CONTENIDOS</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" href="atracoes.html" style="font-family:comum bold;">Atracciones</a></li>
+
+                                            <li><a class="dropdown-item" href="comidas.html" style="font-family:comum bold;">Comidas Típicas</a></li>
+
+                                            <li><a class="dropdown-item active" style="background-color: #5bff9b; font-family:comum bold;" href="tradicoes.html">Tradiciones y Curiosidades</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-nav">
+                                        <a class="nav-link" href="#" style="font-family:comum bold;">CONTÁCTENOS</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    &nbsp;
+                </div>
+            </div>
+
+            <!--IMAGEM E PEQUENO TEXTO-->
+            <div class="row">
+                <div class="col">
+                    <img src="multimidia/dia-de-los-muertos.jpg" class="img-fluid" alt="Día de Los Muertos">
+                    &nbsp;
+                    <h4 style="font-family:comum bold;">Tradições e Curiosidades Mexicanas<h4>
+                    <hr />
+                    <h6 style="font-family:comum bold;">É imprescindível falar sobre a cultura mexicana, que é riquíssima!</h6>
+                    <h6 style="font-family:comum bold;">Em função disso, listamos ao lado algumas das principais tradições e curiosidades desse povo!</h6>
+                </div>
+            
+                <!--ACCORDION-->
+                <div class="col">
+                    <h4 style="font-family: comum bold;">Lista de Tradições e Curiosidades:</h4>
+                    &nbsp;
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-family:comum bold; color:#00ca4f;">
+                                    Día de Los Muertos
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="font-family:comum bold;">
+                                    Uma das tradições mais conhecidas é o Dia de Los Muertos, comemoração de origem indígena que usa a lembrança da morte para celebrar a vida dos ancestrais. A festa acontece entre os dias 31 de outubro e 2 de novembro e é festejada com muita música, comidas tradicionais, trajes típicos e dança. Existe a crença de que durante o período da festa os mortos vêm visitar seus entes queridos e as pessoas decoram as suas casas com velas, flores e incensos para recebê-los.<a href="#" style="color:#5bff9b;"> Clique aqui</a> para conhecer mais.   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="font-family:comum bold; color:#00ca4f;">
+                                    Mariachis
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="font-family:comum bold;">
+                                    Mariachi é chamado um dos gêneros musicais mais tradicionais do México. As pessoas que tocam esse tipo de música são conhecidas como mariacheros ou mariachis. O mariachi é composto de um conjunto musical com um cantor, instrumentos de cordas e vento. É comum encontrar esses conjuntos animando casamentos e festas. Na Cidade do México, mariachis de rua ou bares de mariachi são típicos da Plaza Garibaldi. Além disso, em 2011, a Unesco declarou Mariachi como um gênero musical Patrimônio Cultural Imaterial da Humanidade.<a href="#" style="color:#5bff9b;"> Clique aqui</a> para conhecer mais.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="font-family:comum bold; color:#00ca4f;">
+                                    Pimientos y salsas
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="font-family:comum bold;">
+                                    O mexicano adora pratos picantes, temperados com muito molho de pimenta, que no México é conhecido como salsa. No país existem mais de 140 variedades de pimenta. Praticamente todos os pratos da culinária mexicana levam um toque de pimenta ou são acompanhados por uma salsa bem picante. Além do mais, a pimenta é adereço comum em muitos pratos que não são salgados. É comum encontrar lugares que vendem doces com pimenta, frutas, caldos e sorvetes.<a href="#" style="color:#5bff9b;"> Clique aqui</a> para conhecer mais.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="font-family:comum bold; color:#00ca4f;">
+                                    La Siesta
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="font-family:comum bold;">
+                                    Esse é um costume popular conhecido como " La siesta". As lojas ficam fechadas por algumas horas durante a tarde para permitir que seus proprietários e funcionários tenham um período de descanso. Embora devido ao crescente ritmo de vida nas áreas urbanas esse costume esteja diminuindo, nas aldeias e nas áreas rurais esse é um dos antigos costumes do México que ainda prevalece.<a href="#" style="color:#5bff9b;"> Clique aqui</a> para conhecer mais.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="font-family:comum bold; color:#00ca4f;">
+                                    Piñata
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="font-family:comum bold;">
+                                    Piñatas são um show de família em muitas festas. Este aspecto da cultura mexicana foi adotado em todo o mundo. A piñata pode ser uma panela de barro, cheia de frutas, doces e confetes, ou pode ser feita de papel, geralmente na forma de um burro. Eles têm decorações coloridas de enfeites, fitas e papel, com um barbante. A piñata está pendurada e as crianças vendadas tentam quebrá-la para colher os frutos.<a href="#" style="color:#5bff9b;"> Clique aqui</a> para conhecer mais.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            &nbsp;
+
+        </div>
+    </body>
+</html>
